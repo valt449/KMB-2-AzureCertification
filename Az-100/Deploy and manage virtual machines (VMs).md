@@ -3,6 +3,8 @@
 ### CLI
 ```shell
 az group create --name something --location eastUS
+az vm create --name LinuxVMFromCLI -image UbuntuLTS --resource-group Linux
+az vm delete --name LinuxVMFromCLI --resource-group Linux
 ```
 
 ### Powershell
