@@ -4,7 +4,9 @@
 az group create --name something --location eastUS
 
 ### Powershell
+´´´powershell
 Get-Command -verb Get -noun AzureRm*
+´´´
 
 ### Cloudshell commands 
 az configure
