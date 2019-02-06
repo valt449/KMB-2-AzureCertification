@@ -9,6 +9,9 @@ az group create --name something --location eastUS
 
 ```powershell
 Get-Command -verb Get -noun AzureRm*
+
+New-AzureRmVm -Name LinuxVM -Image UbuntuLTS -ResourceGroupName Linux
+Remove-AzureRmVm -Name LinuxVM -ResourceGroupName Linux
 ```
 
 ### Cloudshell commands 
