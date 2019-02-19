@@ -159,6 +159,12 @@
 				</ul>
 			</li>
 		</ul>
+
+## Assignments
+* [ ] Create virtual gateway
+* [ ] Create two VM on with a public ip adress and one without. Find a way to connect rdp/ssh to the one without a public ip address
+
+
 	</dd><dt role="presentation"><a href="#syllabus-5" id="syllabus-5-label" role="tab" aria-controls="syllabus-5"
 		 aria-expanded="true" aria-selected="true" class="selected"><span class="msl-accordion-icon icon-minus" tabindex="-1"></span>Manage
 			identities (15-20%)</a></dt>
